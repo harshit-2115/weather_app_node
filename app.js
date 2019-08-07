@@ -37,13 +37,16 @@ request({
 		url : `https://api.darksky.net/forecast/11530e225f5d076483a750f657f8f6bb/${lat},${lon}`,
 		json : true
 },(error,response,body) => {
-		console.log(response)
+		if(response.statusCode == 200)
+	{		
 		temperature = body.currently.temperature;
 		humidity = body.currently.humidity;
 		windspeed = body.currently.windSpeed;
 		console.log(`\nTemperature : ${temperature}`);
 		console.log(`Humidity : ${humidity}`);
 		console.log(`Windspeed : ${windspeed}`);
+	}
+	else {console.log('Unable to fetch weather')}	
 	});
 	}
 });
