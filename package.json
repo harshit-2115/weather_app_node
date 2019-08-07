@@ -1,0 +1,22 @@
+{
+  "name": "weather_app_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-2115/weather_app_node.git"
+  },
+  "author": "Harshit Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-2115/weather_app_node/issues"
+  },
+  "homepage": "https://github.com/harshit-2115/weather_app_node#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
