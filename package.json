@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/harshit-2115/weather_app_node#readme",
   "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "yargs": "^13.3.0"
   }
 }
