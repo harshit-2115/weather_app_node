@@ -8,6 +8,7 @@
 
 ## Input: 
 ```
+npm install
 node app.js --address 'New Delhi India'
 ```
 
