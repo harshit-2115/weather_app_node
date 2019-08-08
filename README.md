@@ -1,15 +1,16 @@
-# weather_app_node
+## Weather App
 
 1. Uses LocationIQ API for geocoding.
 2. Used forecast.io API for getting current weather conditions.
 
 
-Example:
+# Example:
 
-Input: 
-node app.js --address 'New Delhi India'
+# Input: 
+```node app.js --address 'New Delhi India
+```
 
-Output:
+# Output:
 Place : New Delhi, Delhi, India
 Latitude : 28.6141793
 Longitude : 77.2022662
